@@ -88,7 +88,7 @@ main {
     font-size: 18px;
     margin-bottom: 30px;
     color: #666;
-    max-width: 600px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -236,100 +236,7 @@ main {
     border-radius: 8px;
 }
 
-.stats {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    margin-top: 30px;
-}
-
-.stat {
-    text-align: center;
-}
-
-.stat-number {
-    font-size: 32px;
-    font-weight: bold;
-    color: #3498db;
-    display: block;
-}
-
-.stat-label {
-    color: #666;
-    margin-top: 5px;
-}
-
-/* Team */
-.team-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-}
-
-.team-member {
-    text-align: center;
-    background: white;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-}
-
-.team-member img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 20px;
-}
-
-.member-name {
-    font-size: 20px;
-    margin-bottom: 5px;
-    color: #2c3e50;
-}
-
-.member-role {
-    color: #3498db;
-    font-weight: bold;
-    margin-bottom: 15px;
-}
-
-.member-bio {
-    color: #666;
-    font-size: 14px;
-}
-
 /* Portfolio */
-.portfolio-filters {
-    padding: 40px 0;
-    background-color: #f7fafc;
-    text-align: center;
-}
-
-.filter-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    flex-wrap: wrap;
-}
-
-.filter-btn {
-    padding: 10px 20px;
-    background: white;
-    border: 2px solid #e2e8f0;
-    border-radius: 6px;
-    color: #4a5568;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.filter-btn.active,
-.filter-btn:hover {
-    background-color: #1a365d;
-    color: white;
-    border-color: #1a365d;
-}
 
 .portfolio-grid {
     display: grid;
@@ -372,38 +279,6 @@ main {
     font-size: 14px;
 }
 
-/* Contact */
-.contact-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-}
-
-.contact-info h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-    color: #2c3e50;
-}
-
-.contact-info p {
-    margin-bottom: 30px;
-    color: #666;
-    line-height: 1.8;
-}
-
-.contact-method {
-    margin-bottom: 20px;
-}
-
-.contact-method h3 {
-    color: #2c3e50;
-    margin-bottom: 5px;
-}
-
-.contact-method p {
-    color: #666;
-}
-
 /* Contact form */
 .contact-form {
     background: #f8f9fa;
@@ -441,40 +316,6 @@ main {
 .form-textarea {
     height: 100px;
     resize: vertical;
-}
-
-/* Testimonials */
-.testimonials {
-    background-color: #f8f9fa;
-}
-
-.testimonials-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-}
-
-.testimonial {
-    background: white;
-    padding: 30px;
-    border-radius: 8px;
-    border-left: 4px solid #3498db;
-}
-
-.testimonial-text {
-    font-style: italic;
-    margin-bottom: 20px;
-    color: #666;
-}
-
-.testimonial-author {
-    font-weight: bold;
-    color: #2c3e50;
-}
-
-.testimonial-role {
-    color: #666;
-    font-size: 14px;
 }
 
 /* CTA section */
@@ -535,57 +376,4 @@ main {
     padding-top: 20px;
     border-top: 1px solid #4a5f7a;
     color: #bdc3c7;
-}
-
-/* Mobile styles */
-@media (max-width: 768px) {
-    .nav-menu {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background: white;
-        flex-direction: column;
-        padding: 20px;
-        border-top: 1px solid #ddd;
-    }
-    
-    .nav-menu.active {
-        display: flex;
-    }
-    
-    .nav-toggle {
-        display: block;
-    }
-    
-    .hero-title {
-        font-size: 28px;
-    }
-    
-    .hero-buttons {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .about-content {
-        grid-template-columns: 1fr;
-    }
-    
-    .contact-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .stats {
-        flex-direction: column;
-        gap: 20px;
-    }
-    
-    .services-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .portfolio-grid {
-        grid-template-columns: 1fr;
-    }
 }
