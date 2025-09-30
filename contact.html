@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Designify</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="logo">Designify</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <button class="nav-toggle">☰</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">Contact Us</h1>
+                <p class="page-description">Ready to start your design project? Let's discuss your needs</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Let's Talk About Your Project</h2>
+                        <p>We'd love to hear about your project and discuss how we can help bring your vision to life. Reach out to us using the form or contact information below.</p>
+                        
+                        <div class="contact-method">
+                            <h3>Email</h3>
+                            <p>designify@gmail.com</p>
+                        </div>
+                        <div class="contact-method">
+                            <h3>Phone</h3>
+                            <p>(123) 456-7890</p>
+                        </div>
+                        <div class="contact-method">
+                            <h3>Business Hours</h3>
+                            <p>Monday - Friday: 9:00 AM - 5:00 PM<br>Saturday: 10:00 AM - 4:00 PM</p>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contactForm">
+                        <h2 class="form-title">Send Us a Message</h2>
+                        <div class="form-group">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service" class="form-label">Service Needed</label>
+                            <select id="service" name="service" class="form-select" required>
+                                <option value="">Choose a service</option>
+                                <option value="logo">Logo Design</option>
+                                <option value="branding">Brand Identity</option>
+                                <option value="marketing">Marketing Materials</option>
+                                <option value="web">Web Graphics</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="budget" class="form-label">Budget Range</label>
+                            <select id="budget" name="budget" class="form-select">
+                                <option value="">Select budget</option>
+                                <option value="under-100">Under $100</option>
+                                <option value="100-300">$100 - $300</option>
+                                <option value="300-500">$300 - $500</option>
+                                <option value="over-500">Over $500</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Project Details</label>
+                            <textarea id="message" name="message" class="form-textarea" placeholder="Tell us about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" style="background-color: #f8f9fa;">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="services-grid">
+                    <div>
+                        <h3>How long does it take?</h3>
+                        <p>Most projects are completed within 3-5 business days. Rush orders available for urgent projects.</p>
+                    </div>
+                    <div>
+                        <h3>What do I get?</h3>
+                        <p>You'll receive high-quality files in multiple formats (PNG, JPG, PDF) ready to use for print and web.</p>
+                    </div>
+                    <div>
+                        <h3>Can I request changes?</h3>
+                        <p>Yes! We offer unlimited revisions until you're completely happy with your design.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Designify</h3>
+                    <p>Professional graphic design services for your business needs.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Logo Design</a></li>
+                        <li><a href="services.html">Brand Identity</a></li>
+                        <li><a href="services.html">Marketing Materials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: designify@gmail.com</p>
+                    <p>Phone: (123) 456-7890</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Designify. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

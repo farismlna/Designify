@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Designify</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="logo">Designify</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle">☰</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title">Our Portfolio</h1>
+                <p class="page-description">Check out some of our recent projects</p>
+            </div>
+        </section>
+
+        <section class="portfolio-filters">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="logo">Logo Design</button>
+                    <button class="filter-btn" data-filter="branding">Brand Identity</button>
+                    <button class="filter-btn" data-filter="marketing">Marketing</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-category="logo">
+                        <img src="images/techstart.png" alt="Logo Design Project">
+                        <div class="portfolio-info">
+                            <h3 class="portfolio-title">TechStart Logo</h3>
+                            <p class="portfolio-category">Logo Design</p>
+                            <p class="portfolio-description">Complete brand identity for a technology startup, including logo design, color palette, and brand guidelines.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="branding">
+                        <img src="images/coffe-shop.png" alt="Brand Identity Project">
+                        <div class="portfolio-info">
+                            <h3 class="portfolio-title">Coffee Shop Brand</h3>
+                            <p class="portfolio-category">Brand Identity</p>
+                            <p class="portfolio-description">Marketing campaign including flyers, menu design, and social media templates for a local coffee shop.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="marketing">
+                        <img src="images/flyers.jpg" alt="Marketing Materials">
+                        <div class="portfolio-info">
+                            <h3 class="portfolio-title">Restaurant Flyers</h3>
+                            <p class="portfolio-category">Marketing Materials</p>
+                            <p class="portfolio-description">Promotional campaign including flyers, menu layouts, and marketing templates designed to showcase and advertise a restaurant.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="logo">
+                        <img src="images/fitnesgym.jpg" alt="Logo Design">
+                        <div class="portfolio-info">
+                            <h3 class="portfolio-title">Fitness Gym Logo</h3>
+                            <p class="portfolio-category">Logo Design</p>
+                            <p class="portfolio-description">Brand package featuring a strong and bold logo concept, designed to represent the identity and energy of a modern fitness center.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="branding">
+                        <img src="images/fashion-brand.png" alt="Brand Package">
+                        <div class="portfolio-info">
+                            <h3 class="portfolio-title">Fashion Brand</h3>
+                            <p class="portfolio-category">Brand Identity</p>
+                            <p class="portfolio-description">Complete brand identity package including logo, visual style, and marketing designs created for a modern fashion boutique.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="marketing">
+                        <img src="images/bussiness-card.jpg" alt="Business Cards">
+                        <div class="portfolio-info">
+                            <h3 class="portfolio-title">Business Cards</h3>
+                            <p class="portfolio-category">Marketing Materials</p>
+                            <p class="portfolio-description">Professional business card package featuring modern layouts and branding elements, designed for a consulting firm.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section cta-section">
+            <div class="container">
+                <h2 class="cta-title">Ready to Start Your Project?</h2>
+                <p class="cta-description">Let's create something amazing together. Get in touch to discuss your design needs.</p>
+                <a href="contact.html" class="btn btn-primary">Get Started Today</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Designify</h3>
+                    <p>Professional graphic design services for your business needs.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Logo Design</a></li>
+                        <li><a href="services.html">Brand Identity</a></li>
+                        <li><a href="services.html">Marketing Materials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: designify@gmail.com</p>
+                    <p>Phone: (123) 456-7890</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Designify. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
